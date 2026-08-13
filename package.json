@@ -1,0 +1,17 @@
+{
+  "name": "node-etag-test",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Minimal Express app to test how Render's edge handles strong ETags under different Accept-Encoding / Cache-Control combinations",
+  "main": "server.js",
+  "engines": {
+    "node": "20.x"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
